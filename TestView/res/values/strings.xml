@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestViewActivity!</string>
+    <string name="app_name">TongjiVNC</string>
+    <string name="screen_option_title">Select Screen Mode</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="bt_sendkey">Send Key</string>
+    <string name="alt_check">Alt</string>
+    <string name="control_check">Control</string>
+    <string name="shift_check">Shift</string>
+    <string name="hostip">Host IP</string>
+    <string name="defaultip">192.168.0.100</string>
+    <string name="passwd">Password</string>
+    <string name="connect">Connect</string>
+    <string name="ex_unknownhost">Unknown Host ERROR</string>
+    <string name="cut_message">Text to Send</string>
+    <string name="btcut_message">Send</string>
+    <string name="bt_getcopy_message">Paste</string>
+
+</resources>

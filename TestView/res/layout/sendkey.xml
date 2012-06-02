@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+		<CheckBox android:id="@+id/checkbox_Shift"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/shift_check"
+			android:layout_weight="0"
+		/>
+		<CheckBox android:id="@+id/checkbox_Ctrl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/control_check"
+			android:layout_weight="0"
+		/>
+		<CheckBox android:id="@+id/checkboxAlt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/alt_check"
+			android:layout_weight="0"
+		/>
+		<Spinner android:id="@+id/spinnerKeySelect"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+		<Button android:id="@+id/buttonSend"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/bt_sendkey"
+		/>
+	</LinearLayout>
+
+</LinearLayout>

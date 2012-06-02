@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right|center_vertical"
+                android:paddingRight="10dip"
+                android:text="@string/hostip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edit_ip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:inputType="none"
+                android:text="@string/defaultip" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right|center_vertical"
+                android:paddingRight="10dip"
+                android:text="@string/passwd"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edit_passwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:hint="@string/passwd"
+                android:singleLine="true" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connect" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

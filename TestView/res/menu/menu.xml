@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/connect"
+        android:title="Connect">
+    </item>
+    <item
+        android:id="@+id/send_key"
+        android:title="Send Key">
+    </item>
+    <item
+        android:id="@+id/special_key"
+        android:title="Special Key">
+    </item>
+    <item
+        android:id="@+id/screen_option"
+        android:title="Screen Option">
+    </item>
+    <item
+        android:id="@+id/cut_text"
+        android:title="Cut Text">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit">
+    </item>
+
+</menu>
